@@ -1,6 +1,7 @@
 import Project from "./Project"
 import calculator from '../images/calculator_image.png'
 import toDo from '../images/To_Do_List_image.png'
+import logo from '../images/logo.png'
 
 const calc = {
     lang: "HTML, CSS, JS",
@@ -16,6 +17,13 @@ const todo = {
     desc: 'A simple yet effective tool to help with productivity.'
 }
 
+const portSite = {
+    lang: "React, JSX, CSS",
+    image: logo,
+    title: 'Portfolio Website',
+    desc: 'A Portfolio Website. You are already here.'
+}
+
 const Portfolio = () => {
     return (
         <div>
@@ -23,6 +31,7 @@ const Portfolio = () => {
             <div className="projects">
                 <Project {...calc} />
                 <Project {...todo} />
+                <Project {...portSite} />
             </div>
         </div>
     )
