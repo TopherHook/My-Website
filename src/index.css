@@ -1,10 +1,39 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: black;
+    color: white;
 }
 
 header {
     text-align: center;
 }
 
+.card {
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 20px;
+    width: 300px;
+}
 
+.description {
+    padding: 15px;
+}
+
+.langs {
+    font-style: italic;
+}
+
+.cardImage {
+    height: 120px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.portTitle {
+    text-align: center;
+}
