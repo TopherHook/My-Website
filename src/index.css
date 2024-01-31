@@ -9,6 +9,31 @@ header {
     text-align: center;
 }
 
+.nav {
+    color: gray;
+}
+
+.nav ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container p {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     text-align: center;
     border: 2px solid gray;
@@ -34,6 +59,7 @@ header {
     justify-content: center;
 }
 
-.portTitle {
+.pageTitle {
     text-align: center;
+    margin: 5rem;
 }

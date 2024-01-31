@@ -1,4 +1,4 @@
-import Project from "./Project"
+import Project from "../components/Project"
 import calculator from '../images/calculator_image.png'
 import toDo from '../images/To_Do_List_image.png'
 import logo from '../images/logo.png'
@@ -27,7 +27,7 @@ const portSite = {
 const Portfolio = () => {
     return (
         <div>
-            <h1 className="portTitle">Portfolio Projects</h1>
+            <h1 className="pageTitle">Portfolio Projects</h1>
             <div className="projects">
                 <Project {...calc} />
                 <Project {...todo} />

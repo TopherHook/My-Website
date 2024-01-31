@@ -1,9 +1,9 @@
-import logo from '../images/logo.png'
+import logo from '../images/Topher_Hook_Logo.png'
 
 const Header = () => {
     return (
         <header >
-            <img src={logo} alt='Topher Hook Logo' />
+            <a href='/'><img src={logo} alt='Topher Hook Logo' /></a>
         </header>
     )
 }

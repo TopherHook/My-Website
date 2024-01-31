@@ -1,11 +1,22 @@
 import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
+import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 const App = () => {
     return (
         <>
             <Header />
-            <Portfolio />
+            <Navbar />
+            <div className="container">
+                <Routes>
+                    <Route path="/about" element={<About />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </div>
         </>
     );
 };
