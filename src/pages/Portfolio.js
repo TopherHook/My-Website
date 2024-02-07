@@ -3,7 +3,9 @@ import calculator from '../images/calculator_image.png'
 import toDo from '../images/To_Do_List_image.png'
 import logo from '../images/logo.png'
 
+
 const calc = {
+    url: 'https://htmlpreview.github.io/?https://github.com/TopherHook/calculator/blob/main/index.html',
     lang: "HTML, CSS, JS",
     image: calculator,
     title: 'Calculator',
@@ -11,6 +13,7 @@ const calc = {
 }
 
 const todo = {
+    url: 'https://htmlpreview.github.io/?https://raw.githubusercontent.com/TopherHook/to-do-list/main/index.html',
     lang: "HTML, CSS, JS",
     image: toDo,
     title: 'To Do List',
@@ -24,14 +27,16 @@ const portSite = {
     desc: 'A Portfolio Website. You are already here.'
 }
 
+
 const Portfolio = () => {
+
     return (
         <div>
             <h1 className="pageTitle">Portfolio Projects</h1>
             <div className="projects">
-                <Project {...calc} />
-                <Project {...todo} />
-                <Project {...portSite} />
+                <a href={calc.url} target="blank"><Project {...calc} /></a>
+                <a href={todo.url} target="blank"><Project {...todo} /></a>
+                <a href="/"><Project {...portSite} /></a>
             </div>
         </div>
     )

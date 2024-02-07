@@ -1,5 +1,7 @@
 
+
 const Project = ({ image, title, lang, desc }) => {
+
     return (
         <div className="card" >
             <h2>{title}</h2>

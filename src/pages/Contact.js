@@ -1,4 +1,3 @@
-import { Link } from "@react-email/link";
 
 const Contact = () => {
     return (
