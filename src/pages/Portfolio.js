@@ -3,7 +3,7 @@ import calculator from '../images/calculator_image.png'
 import toDo from '../images/To_Do_List_image.png'
 import logo from '../images/logo.png'
 
-
+// The following objects are used to populate the Project components 
 const calc = {
     url: 'https://htmlpreview.github.io/?https://github.com/TopherHook/calculator/blob/main/index.html',
     lang: "HTML, CSS, JS",
